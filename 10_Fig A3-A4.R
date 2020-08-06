@@ -53,7 +53,7 @@ FigA4 <- cattle %>%
   geom_line(lwd = 0.7)+
   geom_point(size=2, shape=21, fill="white", show.legend = F)+
   scale_x_continuous(breaks = 1990:2010, labels = years.labels)+
-  scale_y_continuous(name = "'000 heads", limits = c(0,700),
+  scale_y_continuous(name = "1000 heads", limits = c(0,700),
                      breaks = seq(0, 700, 100))+
   scale_linetype(labels = c("Corporate", "Household", "Peasant"))+
   theme_bw(base_size = 14, base_family = "Helvetica")+

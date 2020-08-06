@@ -59,7 +59,7 @@ Fig5 <-
              aes(size = init_pop, fill = Period), 
              shape = 21, stroke = 0, color = "black", alpha = 0.4, show.legend = F)+
   geom_hline(aes(yintercept = 100), linetype = "dashed", col = "grey3")+
-  scale_size_continuous(name = "Initial population, '000",
+  scale_size_continuous(name = "Initial population, 1000",
                         breaks = rev(c(0, 100, 1000, 5000, 20000, 100000)), 
                         labels = rev(c("< 0.1", "0.1-1", "1-5", "5-20", "20-100", ">100")), 
                         range = c(0.9, 10), 

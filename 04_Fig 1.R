@@ -124,7 +124,7 @@ case_region_plot <-
              show.legend = F)+
   scale_color_manual(values = c("black", "#FE0000"))+
   scale_shape_manual(values = c(21, 19))+
-  scale_size_continuous(name = "Population, '000 (2010)",                        
+  scale_size_continuous(name = "Population, 1000 (2010)",                        
                         breaks = c(1, 5, 20, 100, 500),
                         range = c(0.4, 10))+
   scale_x_continuous(expand = c(0.1, 0.1))+

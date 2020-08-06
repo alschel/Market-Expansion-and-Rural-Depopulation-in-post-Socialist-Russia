@@ -24,7 +24,7 @@ Fig2 <- regional_population %>%
             fill="grey90", inherit.aes = F)+
   geom_line(lwd = 0.8)+
   scale_x_continuous(breaks = seq(1981, 2018, 1), labels=year.labels)+
-  scale_y_continuous(name = "'000 people", limits = c(300, 1000), breaks = seq(300, 1000, 100))+
+  scale_y_continuous(name = "1000 people", limits = c(300, 1000), breaks = seq(300, 1000, 100))+
   scale_linetype(labels = c("Rural", "Urban"))+
   theme_bw(base_size = 14, base_family = "Helvetica")+
   theme(panel.grid = element_blank(),
