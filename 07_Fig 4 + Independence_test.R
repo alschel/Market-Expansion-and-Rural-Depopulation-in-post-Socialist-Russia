@@ -91,7 +91,7 @@ employment_absolute_plot <-
              color='black', size=.15, curvature = 0,
              arrow = arrow(type="closed", length = unit(0.1,"cm")),
              show.legend = F)+
-  scale_fill_viridis_c(option = "E", name = "'000 ",  begin = 0.05,
+  scale_fill_viridis_c(option = "E", name = "1000 ",  begin = 0.05,
                        limits = c(0, 7.5), breaks = seq(0, 7.5, 1), 
                        na.value="white", guide = guide_colorbar(barheight = 10))+
   scale_x_continuous(name = element_blank(), expand=c(0,0))+
